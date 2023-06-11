@@ -1,3 +1,6 @@
-# GuessTheWordGame
-skillcrush project
-https://np558565.github.io/skillcrush-softwaredeveloper-training-projects/tree/main/Front-End-Developer-Projects/
+# GuessTheWordGame<br>
+skillcrush project<br>
+Guess the word by inserting correct letters.<br>
+https://skillcrush-guess-the-word.netlify.app/
+
+
