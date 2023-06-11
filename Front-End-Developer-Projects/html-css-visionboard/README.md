@@ -1,3 +1,3 @@
 # visionboard
-Skillcrush mock up project
-https://np558565.github.io/visionboard/
+Skillcrush mock up project<br>
+https://skillcrush-vision-board.netlify.app/
