@@ -1,0 +1,167 @@
+body {
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    background-color: #E8E8E8;
+    width: 1200px;
+    height: 850px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    overflow: auto;
+    background: url('../img/background.png');
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.small-block {
+    height: 210px;
+    width: 400px;
+    margin: 0;
+    float: left;
+}
+
+.large-block {
+    height: 430px;
+    width: 400px;
+    ;
+    margin: 0;
+    float: left;
+}
+
+.grow {
+    text-align: left;
+    background-color: white;
+    height: 210px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+
+}
+
+.grow p {
+    font-size: 20px;
+}
+
+.grow span {
+    background-color: yellow;
+}
+
+.flower img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.languages {
+    text-align: center;
+    background-color: white;
+    height: 210px;
+    box-sizing: border-box;
+}
+
+.languages p {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.freelance {
+    text-align: left;
+    height: 430px;
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+
+.freelance p {
+    font-size: 20px;
+}
+
+.freelance span {
+    background-color: yellow;
+}
+
+.freelance img {
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.vision {
+    text-align: center;
+    height: 430px;
+    background-color: #3B3B3B;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.vision p {
+    font-family: 'Permanent Marker',cursive;
+    color: white;
+    font-size: 25px;
+}
+
+.vision h3 {
+    font-size: 25px;
+    color: white;
+    margin-top: 0;
+}
+
+.travel {
+    text-align: right;
+    height: 430px;
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.travel p {
+    font-size: 20px;
+}
+
+.travel h1 {
+    font-size: 35px;
+}
+
+.travel span {
+    background-color: yellow;
+}
+
+.hobbies {
+    text-align: center;
+    background-color: white;
+    height: 210px;
+    box-sizing: border-box;
+    padding: 60px 50px;
+}
+
+.hobbies p {
+    font-size: 20px;
+}
+
+.dog img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.mind-body {
+    text-align:right;
+    background-color: white;
+    height: 210px;
+    box-sizing: border-box;
+    padding: 60px 40px;
+}
+
+.mind-body span {
+    background-color: yellow;
+}

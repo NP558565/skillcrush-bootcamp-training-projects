@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+.full-width{
+    width: max;
+}
+
+.third-width{
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 400px;
+    float: left;
+    padding: 50px;
+}
+
+html{
+    background-image: url(../img/hero.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: #f9ceb7;
+    height: 200px;
+    padding: 0 20px 0 20px;
+    border: 2px solid black;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+h2{
+    color: #bbc085;
+    text-align: center;
+}

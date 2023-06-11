@@ -1,0 +1,179 @@
+/***** BASE STYLES *****/
+/****2. SET UP YOUR BASE STYLES****/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+
+/****3. STYLE YOUR GRID****/
+/***** GRID *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/****since the Header is at the top of the page, the correct place to write this code
+is just under the Grid section, and just above the About Section.****/
+/****HEADER****/
+/****1. GIVE YOUR HEADER A BACKGROUND AND A HEIGHT****/
+header{
+	height: 800px;
+	background: url('../img/full-background.png');
+	background-size:cover;
+}
+/****2. STYLE YOUR H1****/
+h1{
+	padding: 65px 0 65px 25px;
+	font-family: 'Lora';
+	color: #bbc085;
+}
+/****3. STYLE YOUR NAVIGATION****/
+nav{
+	float: right;
+	padding: 75px 25px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #828282;
+	padding-left: 60px;
+}
+/****4. STYLE YOUR HEADER H2 AND H2 SPAN****/
+header h2 {
+	width: 1000px;
+	clear: both;
+	font-family: 'Lora', serif;
+	font-size: 72px;
+	line-height: 80px;
+	color: #9b9b9b;
+	padding: 20px 0 20px 25px;
+}
+header h2 span {
+	color: #2b2b2b;
+}
+/***** ABOUT   CSS SECTION*****/
+/****2. GIVE THE FULL-WIDTH CLASS SOME PADDING FOR THE ABOUT SECTION****/
+#about .full-width {
+	padding: 80px 0;
+}
+/****3. STYLE YOUR H2 AND P TAGS****/
+#about h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+	padding-left: 50px;
+}
+
+#about p {
+	font-size: 21pt;
+	color: #7f7f7f;
+	line-height: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/***** WORK SECTION*****/
+/****1. SET THE BACKGROUND COLOR + TEXT ALIGNMENT FOR #WORK****/
+#work {
+	background-color: #f9ceb7;
+	text-align: center;
+}
+/****2. GIVE .FULL-WIDTH AND IMG A LITTLE PADDING****/
+#work .full-width {
+	padding: 115px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+/****3. STYLE YOUR H3 AND P TAGS****/
+#work h3 {
+	font-size: 24px;
+	line-height: 32px;
+	width: 190px;
+	margin: 0 auto;
+}
+
+#work p {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 50px;
+}
+
+
+/***** CONTACT SECTION*****/
+/****1. GIVE #CONTACT A BACKGROUND COLOR****/
+#contact {
+	background-color: #ebebeb;
+}
+/****2. GIVE .FULL-WIDTH SOME VERTICAL PADDING****/
+#contact .full-width {
+	padding: 110px 0;
+}
+/****3. STYLE THE CONTACT IMAGE****/
+#contact img#contact-img {
+	margin-left: 25px;
+	border: 12px solid #ffffff;
+}
+/****4. ADD SOME PADDING & SOME IDS****/
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+#contact #envelope {
+	padding: 0 10px 0 115px;
+}
+/****5. STYLE YOUR TEXT****/
+#contact h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+#contact #email-header {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 44px;
+	margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+	font-weight: bold;
+	font-size: 29px;
+	line-height: 44px;
+	margin: 40px 0 0 0;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #C49075;
+	font-weight: bold;
+	font-size:28px;
+}
+/****6. STYLE YOUR SOCIAL MEDIA UL****/
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	font-size: 32px;
+	padding-right: 48px;
+}
