@@ -1,0 +1,59 @@
+
+<!--In this exercise, you’ll fetch random profile data from the Random User Generator API(opens in a new tab). You’ll parse the data to a JSON file and then create an array with the data. Finally, you’ll create a function expression to populate data on the page, including the country, name, and profile image.
+
+Declare an async function called getData.
+Inside the function body, declare a variable called usersRequest. 
+In the value of usersRequest, fetch data from the API with a parameter to access 5 results at a time: “https://randomuser.me/api?results=5”.
+On the next line, declare a variable called data to parse the data captured in the usersRequest variable using .json().
+Have a look at what your data variable returns. (You’ll need to call your getData function). You want to drill down to the array of user objects. Once you have found the property name for the array of objects, create a new variable called usersResults and map it to that property. Log it out to the console to make sure you’ve grabbed the correct data.
+Create a new function expression called displayUsers and give it a parameter of userResults, which will be an array. Inside the function, begin by emptying the randomFolks element’s contents to make sure you don’t duplicate any DOM elements: randomFolks.innerHTML = "";.
+Next, loop over userResults. For every user, select their country, first name, and avatar URL with a size of medium. Save the results of these 3 properties to three variables called country, name, and imageUrl.
+Now that you have data for each user, create a div element called userDiv using document.createElement and populate its innerHTML like this:
+
+Append userDiv to the randomFolks element.
+At the bottom of your getData function, call your displayUsers function and pass it the usersResults array as an argument. Refresh the page, and you should see 5 users with their names, countries, and images. 
+
+Exercise #2
+
+Skills practiced: async functions, fetch, template literals, change event
+
+In this exercise, you’ll build off your work in Exercise #1. You’ll add more functionality to your Random User Generator app by programming a drop-down list to change the number of profiles displayed. You’ll start by unhiding the drop-down list. Then, you’ll create a change event and make adjustments to the async function to retrieve 1, 3, or 5 users at a time, depending on which option is selected. 
+
+In the index.html file, locate the div with the class of “num-users”. You’re ready to work with this element now, so remove the class of “hide”. You should see a drop-down list appear on the page with the default of “1” selected.
+At the top of the index.js file, create a variable called selectUserNumber to capture the select element. 
+At the bottom of the file, add a change event listener for selectUserNumber. Hint: View the Change Events section in a previous lesson if you need a refresher on working with this event type.
+In the callback function, create a variable called numUsers that will capture the selected value. Then, call getData() and pass it numUsers as an argument. 
+Modify the getData() function to accept a numUsers parameter. 
+In your fetch() request, edit the APL URL to use the results of the numUsers: https://randomuser.me/api?results=${numUsers}. Hint: Because you’re using a template literal, make sure to use backticks around the URL instead of quotation marks.
+Now you’ll need to provide an argument for your first call to your getData() function. Let’s pass in the number “1”:  getData(1);. 
+Test that everything works as expected. Whenever you select a number, that amount of random users will appear on the page!-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice-01-starter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <h1>Random User Generator!</h1>
+      <div class="num-users">
+        <label for="users">How many users would you like?</label>
+        <select name="users" id="users">
+          <option value="1">1</option>
+          <option value="3">3</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="random-peeps"></div>
+    </div>
+  </body>
+</html>
