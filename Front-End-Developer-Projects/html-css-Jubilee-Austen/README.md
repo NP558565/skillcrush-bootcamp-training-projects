@@ -1,4 +1,3 @@
-https://np558565.github.io/101-Jubilee-Austen/<br>
 
 HTML5, CSS.<br> 
 Web page for Jubilee Austen, in which displays her career as a web developer. This is a professional website that at the same time manages to transmit calming aura.
